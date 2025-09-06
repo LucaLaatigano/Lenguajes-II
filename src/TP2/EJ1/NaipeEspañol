@@ -3,8 +3,6 @@
 */
 public class NaipeEspañol {
 
-
-	// valor de la carta
 	private String nombre;
 	private final String palo;
 	private int numero;
@@ -12,11 +10,9 @@ public class NaipeEspañol {
 	/**
 	* Constructor de objetos de clase NaipeEspañol
 	*/
-	public NaipeEspañol(String p,int n){
-	// valor de la carta
+	public NaipeEspañol(String p,int n){	
 	numero=n;
-	palo=p;
-	//nombre = nombreCarta; // Inicializar la variable nombre aquí
+	palo=p;	
 	}
 	//----------------------------------------------------------------------
 	/**
@@ -64,7 +60,7 @@ public class NaipeEspañol {
 	/**
 	* Método para indicar si el naipe n es del mismo numero
 	*
-	* @return true si son del mismo palo
+	* @return true si son del mismo numero
 	*/
 	public boolean igualNumero(NaipeEspañol n){
 		boolean iguales=true;
@@ -91,9 +87,9 @@ public class NaipeEspañol {
 		}
 	//----------------------------------------------------------------------------
 	/**
-	* Método para indicar si dada otra carta, devolver la de mayor valor
+	* Método para setear nombre de la carta.
 	*
-	* @return la de mayor valor
+	* @return set nombre de carta
 	*/
 	public void setNombre(){
 		if (numero == 1) {
