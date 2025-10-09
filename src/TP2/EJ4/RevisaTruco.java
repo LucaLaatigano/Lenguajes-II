@@ -1,4 +1,4 @@
-package TP2.EJ2;
+package TP2.EJ4;
 import java.util.Random;
 
 public class RevisaTruco {

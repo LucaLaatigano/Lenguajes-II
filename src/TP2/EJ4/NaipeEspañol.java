@@ -1,3 +1,4 @@
+package TP2.EJ4;
 
 public class NaipeEspañol {
     /**
